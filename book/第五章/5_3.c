@@ -33,8 +33,8 @@ int main()
             break;
         }
     }
-    
-    for (i = 1; i <= sqrt(m); i++)//优化
+
+    for (i = 1; i <= sqrt(m); i++) // 优化
     {
         if (m % i == 0 && n % i == 0)
         {
