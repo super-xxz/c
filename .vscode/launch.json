@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -9,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "t:/Desktop/c",
-      "program": "t:/Desktop/c/build/Debug/outDebug",
+      "cwd": "t:/Desktop/c/book/第七章",
+      "program": "t:/Desktop/c/book/第七章/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

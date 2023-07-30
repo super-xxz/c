@@ -58,6 +58,7 @@
   "fileheader.Author": "superx",
   "fileheader.LastModifiedBy": "superx",
   "files.associations": {
-    "type_traits": "c"
+    "type_traits": "c",
+    "stdio.h": "c"
   }
 }

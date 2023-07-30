@@ -3,21 +3,22 @@
  再落下，再反弹。求它在第8次落地时共经过多少米，第8次反弹多高。
  * @Author: superx
  * @Date: 2023-07-18 20:10:45
- * @LastEditTime: 2023-07-18 21:10:17
+ * @LastEditTime: 2023-07-19 14:10:28
  * @LastEditors: superx
  */
 
 #include <stdio.h>
+#define N 4
 
 int main()
 {
     float sum = 0, i, height = 100;
 
-    for (i = 1; i <= 8; i++)
+    for (i = 1; i <= N; i++)
     {
-        sum += height;
         height /= 2.0f;
+        sum += height * 2;
     }
     printf("一共经过%f米", sum);
-    printf("第八次反弹%f米", height);
+    printf("第%d次反弹%f米", N - 1, height / 2);
 }

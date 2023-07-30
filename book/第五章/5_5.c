@@ -2,7 +2,7 @@
  * @Description: 输入一行字符，分别统计其中英文字母、数字和其他字符的个数。
  * @Author: superx
  * @Date: 2023-07-18 20:50:17
- * @LastEditTime: 2023-07-18 21:09:43
+ * @LastEditTime: 2023-07-19 14:17:12
  * @LastEditors: superx
  */
 
@@ -23,15 +23,15 @@ int main()
     {
         if (buf[i] >= '0' && buf[i] <= '9')
         {
-            count_digit += 1;
+            count_digit ++;
         }
         else if ((buf[i] >= 'a' && buf[i] <= 'z') || (buf[i] >= 'A' && buf[i] <= 'Z'))
         {
-            count_alpha += 1;
+            count_alpha ++;
         }
         else
         {
-            count_char += 1;
+            count_char ++;
         }
         i++;
     }

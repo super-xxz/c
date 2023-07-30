@@ -12,12 +12,12 @@
 int main()
 {
     int count = 0;
-
-    for (int ones = 1; ones <= 100; ones++)
+    int ones,fives,tens;
+    for (ones = 1; ones <= 100; ones++)
     {
-        for (int fives = 1; fives <= 20; fives++)
+        for (fives = 1; fives <= 20; fives++)
         {
-            for (int tens = 1; tens <= 10; tens++)
+            for (tens = 1; tens <= 10; tens++)
             {
                 if (ones + 5 * fives + 10 * tens == 100 && fives % 5 == 0 && tens % 5 == 0)
                 {
