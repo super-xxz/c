@@ -2,7 +2,11 @@
  * @Description: 输入10个整数,找出与平均值最接近的数并输出
  * @Author: superx
  * @Date: 2023-07-22 13:50:24
+<<<<<<< HEAD
  * @LastEditTime: 2023-07-30 15:46:48
+=======
+ * @LastEditTime: 2023-07-22 15:27:13
+>>>>>>> 6618d199c6ed555e56cc86f552c6b4be3b376ff7
  * @LastEditors: superx
  */
 

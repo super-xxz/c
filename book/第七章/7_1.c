@@ -8,7 +8,11 @@
 
 #include <stdio.h>
 
+<<<<<<< HEAD
 void sort(float a[], int length) // bubble_sort
+=======
+void sort(float a[], int length) // bobble_sort
+>>>>>>> 6618d199c6ed555e56cc86f552c6b4be3b376ff7
 {
     int i, j;
     float temp;

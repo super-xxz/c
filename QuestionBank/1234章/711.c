@@ -2,7 +2,7 @@
  * @Description: 711
  * @Author: superx
  * @Date: 2023-07-30 16:34:08
- * @LastEditTime: 2023-07-30 16:58:06
+ * @LastEditTime: 2023-08-04 10:15:16
  * @LastEditors: superx
  */
 #include <stdio.h>
@@ -10,7 +10,7 @@
 
 int main()
 {
-    printf("Input:");
+    printf("Input:"); 
     float r,h;
     scanf("r=%f,h=%f",&r,&h);
     float c1,s,v;
